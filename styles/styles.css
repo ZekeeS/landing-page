@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Roboto, sans-serif;
 
 }
 
@@ -9,3 +10,34 @@ body {
     
 }
 
+.hero {
+    outline: solid blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.header {
+    margin-left: 5rem;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    outline: solid red;
+}
+
+/* .link-list {
+    flex: 0 1 0;
+} */
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
