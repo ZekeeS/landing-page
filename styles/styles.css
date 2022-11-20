@@ -10,6 +10,10 @@ body {
     
 }
 
+button {
+    cursor: pointer;
+}
+
 .hero {
     /* outline: solid blue; */
     display: flex;
@@ -157,7 +161,46 @@ a {
     margin-left: 500px;
 }
 
+/* Call to action Section */
+
 .call-section {
-    outline: solid black;
-    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-container {
+    /* outline: solid black; */
+    background-color: #3882f6;
+    display: flex;
+    padding: 2rem 6rem;
+    border-radius: 5px;
+    margin: 5rem;
+    gap: 8rem;
+}
+
+.call-button {
+    height: fit-content;
+    width: fit-content;
+    flex: 0 1 auto;
+    align-self: center;
+    border-radius: 4px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-style: none;
+    outline: #F9FAF8 solid 2px;
+    padding: .25rem 1.5rem;
+}
+
+.call-button:hover {
+    background-color: #F9FAF8;
+    color: #3882f6;
+}
+
+.call-text {
+    color: #F9FAF8;
+}
+
+.call-header {
+    font-weight: 800;
 }
