@@ -13,14 +13,14 @@ body {
 .hero {
     /* outline: solid blue; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #1f2937;
     padding-top: 1rem;
 }
 
 .header {
-    margin-left: 5rem;
+    /* margin-left: 5rem; */
     color: #F9FAF8;
     font-size: 24px;
 }
@@ -29,7 +29,7 @@ ul {
     display: flex;
     /* outline: solid red; */
     font-size: 18px;
-    margin-right: 4rem;
+    /* margin-right: 4rem; */
     
 }
 
@@ -52,16 +52,14 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.main, .main-image {
-    outline: solid white;
+    gap: 4rem;
 }
 
 .main {
     display: flex;
     flex-flow: column wrap;
-    margin-right: 5rem;
+    /* margin-right: 7rem; */
+    width: 600px;
 }
 
 .main-button {
@@ -76,7 +74,7 @@ a {
 .main-text {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
     display: inline;
     width: 400px;
 }
@@ -88,8 +86,78 @@ a {
 }
 
 .main-image {
-    height: 200px;
-    width: 400px;
+    height: 225px;
+    width: 600px;
     background-color: #56585e;
     border-radius: 4px;
+}
+
+/* information panel styling */
+
+.infocontainer {
+    /* outline: black solid; */
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+}
+
+.infopanel {
+    display: flex;
+    justify-content: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.infoimages {
+    /* outline: solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.infosquares {
+    /* outline: solid lightblue; */
+    max-width: 200px;
+    text-align: center;
+}
+
+.info-outline {
+    outline: solid #3882f6;
+    height: 150px;
+    width: 150px;
+    margin: 1.5rem;
+    border-radius: 10px;
+}
+
+/* Quote Section Styling */
+
+.quote-container {
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote {
+    /* outline: solid black; */
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: normal;
+    opacity: .7;
+    width: 800px;
+}
+
+.quote-author {
+    color: #1F2937;
+    font-weight: 800;
+    margin-left: 500px;
+}
+
+.call-section {
+    outline: solid black;
+    height: 400px;
 }
