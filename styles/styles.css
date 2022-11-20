@@ -204,3 +204,14 @@ a {
 .call-header {
     font-weight: 800;
 }
+
+/* footer */
+
+.footer-container {
+    color: #F9FAF8;
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
